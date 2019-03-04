@@ -10,7 +10,9 @@ namespace general_symbols {
 }
 
 namespace message_id {
-
+  const QString gpsPrefix = "GP";
+  const QString latLonData = "GLL";
+  const QString gpsLatLon = gpsPrefix + latLonData;
 }
 
 #endif // CONSTANTS_H
